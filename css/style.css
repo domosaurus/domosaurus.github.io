@@ -1,0 +1,31 @@
+/* style.css */
+/* Imports */
+@import url("components/card.css");
+@import url("components/list.css");
+@import url("components/navbar.css");
+@import url("components/footer.css");
+@import url("components/banner.css");
+
+body {
+	background: rgb(245,245,245);
+	color: #404040;
+	font-family: 'Raleway', sans-serif;
+	text-align: center;
+	margin: 0;
+	padding: 0;
+}
+
+.second_title {
+	padding-top: 200px;
+	padding-bottom: 10px;
+}
+.flip-image {
+	transform: rotate(270deg);
+	padding-top: 24px;
+	justify-content: center;
+	margin-left: -22px;
+}
+
+.small-banner {
+	margin-bottom: 100px;
+}
